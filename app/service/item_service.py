@@ -7,7 +7,6 @@ def addItem(item: Item):
 
 def getItem(itemId: int) -> dict | None:
     for i in items_db:
-        print(i)
         if i["id"] == itemId:
             return i
     return None
